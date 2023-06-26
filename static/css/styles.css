@@ -1,4 +1,8 @@
-.circle {
+body {
+background-color: #DBF9FC;
+}
+
+#circle {
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -7,13 +11,4 @@
     align-items: center;
     justify-content: center;
 }
-
-.circle a {
-    text-decoration: none;
-    color: #000;
-    font-weight: bold;
-}
-
-.circle a:hover {
-    background-color: #ddd;
 }
