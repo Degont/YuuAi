@@ -2,6 +2,10 @@ body {
 background-color: #DBF9FC;
 }
 
+#tuning {
+    background-color: #B1FF33
+}
+
 #circle {
     width: 100px;
     height: 100px;
@@ -10,5 +14,4 @@ background-color: #DBF9FC;
     display: flex;
     align-items: center;
     justify-content: center;
-}
 }

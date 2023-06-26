@@ -10,7 +10,8 @@ def home():  # put application's code here
 
 @app.route('/second')
 def second_page():
-    return "This is the second page"
+    message = "This is the second page"
+    return render_template("second_page.html", message = message)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0" , port = 80)
